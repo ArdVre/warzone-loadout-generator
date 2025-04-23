@@ -1,0 +1,30 @@
+{
+    "attachments": {
+        "bo6": {
+            "Assault Rifle": {
+                "optic": [],
+                "muzzle": [],
+                "barrel": [],
+                "underbarrel": [],
+                "magazine": [],
+                "rear grip": [],
+                "stock": [],
+                "laser": [],
+                "fire mods": [],
+                "ammunition": []
+            },
+            "Smg": {
+                "optic": [],
+                "muzzle": [],
+                "barrel": [],
+                "underbarrel": [],
+                "magazine": [],
+                "rear grip": [],
+                "stock": [],
+                "laser": [],
+                "fire mods": [],
+                "ammunition": []
+            }
+        }
+    }
+}
