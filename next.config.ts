@@ -6,7 +6,11 @@ const nextConfig: NextConfig = {
       {
         protocol: 'https',
         hostname: 'assets.codmunity.gg',
-      }
+      },
+      {
+        protocol: 'https',
+        hostname: 'img.wzstats.gg',
+      },
     ]
   }
 };

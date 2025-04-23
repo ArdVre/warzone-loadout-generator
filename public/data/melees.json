@@ -1,0 +1,64 @@
+{
+    "Melee": [
+      {
+        "name": "Knife",
+        "attachments": ["bo6"],
+        "description": "Classic close-range weapon with fast melee animations.",
+        "imageUrl": "https://assets.codmunity.gg/optimized/Knife.webp"
+      },
+      {
+        "name": "Baseball Bat",
+        "attachments": ["bo6"],
+        "description": "Blunt force melee weapon with a wide swing arc.",
+        "imageUrl": "https://assets.codmunity.gg/optimized/Baseball-Bat.webp"
+      },
+      {
+        "name": "Power Drill",
+        "attachments": ["bo6"],
+        "description": "Improvised melee with brutal finishing animations.",
+        "imageUrl": "https://assets.codmunity.gg/optimized/Power-Drill.webp"
+      },
+      {
+        "name": "Cleaver",
+        "attachments": ["bo6"],
+        "description": "Heavy chopping melee for high impact strikes.",
+        "imageUrl": "https://assets.codmunity.gg/optimized/Cleaver.webp"
+      },
+      {
+        "name": "Skateboard",
+        "attachments": ["bo6"],
+        "description": "A creative and unconventional melee weapon.",
+        "imageUrl": "https://assets.codmunity.gg/optimized/Skateboard.webp"
+      },
+      {
+        "name": "Katanas",
+        "attachments": ["bo6"],
+        "description": "Dual swords with fast, deadly slashes.",
+        "imageUrl": "https://assets.codmunity.gg/optimized/Katanas.webp"
+      },
+      {
+        "name": "Bo Staff",
+        "attachments": ["bo6"],
+        "description": "Long-range melee with wide sweeping attacks.",
+        "imageUrl": "https://assets.codmunity.gg/optimized/Bo-Staff.webp"
+      },
+      {
+        "name": "Sai",
+        "attachments": ["bo6"],
+        "description": "Paired melee weapons for quick, lethal combos.",
+        "imageUrl": "https://assets.codmunity.gg/optimized/Sai.webp"
+      },
+      {
+        "name": "Nunchaku",
+        "attachments": ["bo6"],
+        "description": "High-speed melee with combo-focused attacks.",
+        "imageUrl": "https://assets.codmunity.gg/optimized/Nunchaku.webp"
+      },
+      {
+        "name": "Kali Sticks",
+        "attachments": ["bo6"],
+        "description": "Dual batons with lightning-fast strike chains.",
+        "imageUrl": "https://assets.codmunity.gg/optimized/Kali-Sticks.webp"
+      }
+    ]
+}

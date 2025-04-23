@@ -1,4 +1,3 @@
-import type { Loadout } from "@/lib/types";
 import LoadoutCard from "@/app/components/LoadoutCard";
 import Link from "next/link";
 import { featuredLoadouts } from "@/lib/featured";
@@ -18,7 +17,7 @@ export default function Home() {
             </span>
           </h1>
           <p className="text-lg text-center mt-4 max-w-2xl text-gray-700 dark:text-gray-300">
-            Try our amazing Warzone Loadout random generator! You'll get random
+            Try our amazing Warzone Loadout random generator! You&apos;ll get random
             weapons but the best loadouts for it! This random generator is
             unique on the market. Have fun!
           </p>

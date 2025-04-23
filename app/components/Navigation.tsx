@@ -1,5 +1,4 @@
 import Link from "next/link";
-import Image from "next/image";
 import { FaBullseye } from "react-icons/fa";
 
 const Navigation: React.FC = () => {

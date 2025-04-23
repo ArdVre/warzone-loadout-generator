@@ -1,0 +1,272 @@
+{
+  "weapons": {
+    "Assault Rifle": [
+      {
+        "name": "XM4",
+        "attachments": ["bo6"],
+        "description": "A balanced and reliable AR with moderate recoil and strong versatility.",
+        "imageUrl": "https://assets.codmunity.gg/optimized/XM4-Dark-Spine.webp"
+      },
+      {
+        "name": "AK-74",
+        "attachments": ["bo6"],
+        "description": "Soviet-era AR known for its stopping power and high damage per shot.",
+        "imageUrl": "https://assets.codmunity.gg/optimized/ak-74-Dark-Spine.webp"
+      },
+      {
+        "name": "AMES 85",
+        "attachments": ["bo6"],
+        "description": "Experimental AR with fast fire rate and integrated recoil control.",
+        "imageUrl": "https://assets.codmunity.gg/optimized/AMES-85-Dark-Spine.webp"
+      },
+      {
+        "name": "GPR 91",
+        "attachments": ["bo6"],
+        "description": "Precision-focused rifle with excellent mid-range accuracy.",
+        "imageUrl": "https://assets.codmunity.gg/optimized/GPR-91-Dark-Spine.webp"
+      },
+      {
+        "name": "Model L",
+        "attachments": ["bo6"],
+        "description": "Lightweight AR with fast handling, great for close engagements.",
+        "imageUrl": "https://assets.codmunity.gg/optimized/MODEL-L-Dark-Spine.webp"
+      },
+      {
+        "name": "Goblin Mk2",
+        "attachments": ["bo6"],
+        "description": "High-tech AR with burst-fire mode and fast reload speed.",
+        "imageUrl": "https://assets.codmunity.gg/optimized/GOBLIN-MK-2-Dark-Spine.webp"
+      },
+      {
+        "name": "AS VAL",
+        "attachments": ["bo6"],
+        "description": "Integrally suppressed rifle with high fire rate and excellent stealth potential.",
+        "imageUrl": "https://assets.codmunity.gg/optimized/AS-VAL-Dark-Spine.webp"
+      },
+      {
+        "name": "Kilo 141",
+        "attachments": ["bo6"],
+        "description": "Versatile AR with controllable recoil and good all-around stats.",
+        "imageUrl": "https://assets.codmunity.gg/optimized/Kilo-141.webp"
+      },
+      {
+        "name": "CR-56 AMAX",
+        "attachments": ["bo6"],
+        "description": "Hard-hitting AR ideal for aggressive players who manage recoil well.",
+        "imageUrl": "https://assets.codmunity.gg/optimized/CR-56-Amax.webp"
+      },
+      {
+        "name": "Krig C",
+        "attachments": ["bo6"],
+        "description": "Stable and accurate AR, ideal for long-range engagements.",
+        "imageUrl": "https://assets.codmunity.gg/optimized/KRIG-C.webp"
+      },
+      {
+        "name": "Cypher 091",
+        "attachments": ["bo6"],
+        "description": "Covert assault platform with built-in tracking optics.",
+        "imageUrl": "https://assets.codmunity.gg/optimized/Cypher-091.webp"
+      }
+    ],
+    "Submachine Gun": [
+      {
+        "name": "C9",
+        "attachments": ["bo6"],
+        "description": "Compact SMG with lightning-fast fire rate and tight hipfire spread.",
+        "imageUrl": "https://assets.codmunity.gg/optimized/C9-Dark-Spine.webp"
+      },
+      {
+        "name": "KSV",
+        "attachments": ["bo6"],
+        "description": "Modern SMG with low recoil and quick aim-down-sights speed.",
+        "imageUrl": "https://assets.codmunity.gg/optimized/KSV-Dark-Spine.webp"
+      },
+      {
+        "name": "Tanto .22",
+        "attachments": ["bo6"],
+        "description": "Silenced SMG built for stealth kills in close quarters.",
+        "imageUrl": "https://assets.codmunity.gg/optimized/Tanto-.22-Dark-Spine.webp"
+      },
+      {
+        "name": "PP-919",
+        "attachments": ["bo6"],
+        "description": "Eastern-style SMG known for high mobility and mag size.",
+        "imageUrl": "https://assets.codmunity.gg/optimized/PP-919-Dark-Spine.webp"
+      },
+      {
+        "name": "Jackal PDW",
+        "attachments": ["bo6"],
+        "description": "A personal defense weapon ideal for run-and-gun tactics.",
+        "imageUrl": "https://assets.codmunity.gg/optimized/JACKAL-PDW-Dark-Spine.webp"
+      },
+      {
+        "name": "Kompakt 92",
+        "attachments": ["bo6"],
+        "description": "A highly concealable SMG with fast handling and good hipfire.",
+        "imageUrl": "https://assets.codmunity.gg/optimized/KOMPAKT-92-Dark-Spine.webp"
+      },
+      {
+        "name": "SAUG",
+        "attachments": ["bo6"],
+        "description": "Twin-barrel micro-SMG designed for ultra-fast engagements.",
+        "imageUrl": "https://assets.codmunity.gg/optimized/SAUG.webp"
+      },
+      {
+        "name": "PPSH-41",
+        "attachments": ["bo6"],
+        "description": "Classic SMG with massive magazine and high fire rate.",
+        "imageUrl": "https://assets.codmunity.gg/optimized/PPSh-41.webp"
+      }
+    ],
+    "Shotgun": [
+      {
+        "name": "Marine SP",
+        "attachments": ["bo6"],
+        "description": "Pump-action shotgun with wide spread and high stopping power.",
+        "imageUrl": "https://assets.codmunity.gg/optimized/Marine-SP-Dark-Spine.webp"
+      },
+      {
+        "name": "ASG-89",
+        "attachments": ["bo6"],
+        "description": "Semi-auto shotgun designed for fast-paced breaching.",
+        "imageUrl": "https://assets.codmunity.gg/optimized/ASG-89-Dark-Spine.webp"
+      },
+      {
+        "name": "MAELSTRORM",
+        "attachments": ["bo6"],
+        "description": "Automatic shotgun with brutal damage output at close range.",
+        "imageUrl": "https://assets.codmunity.gg/optimized/Maelstrom.webp"
+      }
+    ],
+    "Light Machine Gun": [
+      {
+        "name": "PU-21",
+        "attachments": ["bo6"],
+        "description": "Heavy-duty LMG with high damage and slow mobility.",
+        "imageUrl": "https://assets.codmunity.gg/optimized/PU-21-Dark-Spine.webp"
+      },
+      {
+        "name": "XMG",
+        "attachments": ["bo6"],
+        "description": "Dual-fed LMG optimized for suppression and fire superiority.",
+        "imageUrl": "https://assets.codmunity.gg/optimized/XMG-Dark-Spine.webp"
+      },
+      {
+        "name": "GPMG-7",
+        "attachments": ["bo6"],
+        "description": "General-purpose machine gun with balanced stats and long range.",
+        "imageUrl": "https://assets.codmunity.gg/optimized/GPMG-7-Dark-Spine.webp"
+      },
+      {
+        "name": "FENG 82",
+        "attachments": ["bo6"],
+        "description": "Belt-fed LMG with controllable recoil and solid accuracy.",
+        "imageUrl": "https://assets.codmunity.gg/optimized/Feng-82.webp"
+      }
+    ],
+    "Marksman Rifle": [
+      {
+        "name": "Swat 5.56",
+        "attachments": ["bo6"],
+        "description": "Fast-firing DMR ideal for aggressive precision play.",
+        "imageUrl": "https://assets.codmunity.gg/optimized/SWAFT-5.56-Dark-Spine.webp"
+      },
+      {
+        "name": "Tsarkov 7.62",
+        "attachments": ["bo6"],
+        "description": "Heavy-hitting marksman rifle with high caliber rounds.",
+        "imageUrl": "https://assets.codmunity.gg/optimized/Tsarkov-7.62-Dark-Spine.webp"
+      },
+      {
+        "name": "AEK-973",
+        "attachments": ["bo6"],
+        "description": "Tactical DMR with excellent recoil control and mid-range lethality.",
+        "imageUrl": "https://assets.codmunity.gg/optimized/AEK-973-Dark-Spine.webp"
+      },
+      {
+        "name": "DM-10",
+        "attachments": ["bo6"],
+        "description": "Semi-automatic rifle with precision sights and high velocity rounds.",
+        "imageUrl": "https://assets.codmunity.gg/optimized/DM-10-Dark-Spine.webp"
+      },
+      {
+        "name": "TR2",
+        "attachments": ["bo6"],
+        "description": "Burst-fire marksman rifle for surgical long-range strikes.",
+        "imageUrl": "https://assets.codmunity.gg/optimized/TR2.webp"
+      }
+    ],
+    "Sniper Rifle": [
+      {
+        "name": "LW3A1 Frostline",
+        "attachments": ["bo6"],
+        "description": "Bolt-action sniper rifle with lethal one-shot potential.",
+        "imageUrl": "https://assets.codmunity.gg/optimized/LW3A1-Frostline-Dark-Spine.webp"
+      },
+      {
+        "name": "SVD",
+        "attachments": ["bo6"],
+        "description": "Semi-automatic sniper for follow-up shots and quick kills.",
+        "imageUrl": "https://assets.codmunity.gg/optimized/SVD-Dark-Spine.webp"
+      },
+      {
+        "name": "LR 7.62",
+        "attachments": ["bo6"],
+        "description": "Heavy sniper rifle with massive damage output at long range.",
+        "imageUrl": "https://assets.codmunity.gg/optimized/LR.7-Dark-Spine.webp"
+      },
+      {
+        "name": "HDR",
+        "attachments": ["bo6"],
+        "description": "High-powered sniper designed for extreme-range precision.",
+        "imageUrl": "https://assets.codmunity.gg/optimized/HDR.webp"
+      },
+      {
+        "name": "AMR MOD 4",
+        "attachments": ["bo6"],
+        "description": "Anti-materiel rifle capable of penetrating vehicles and armor.",
+        "imageUrl": "https://assets.codmunity.gg/optimized/AMR-MOD-4.webp"
+      }
+    ],
+    "Pistol": [
+      {
+        "name": "9MM PM",
+        "attachments": ["bo6"],
+        "description": "Standard sidearm with moderate fire rate and low recoil.",
+        "imageUrl": "https://assets.codmunity.gg/optimized/9mm-Dark-Spine.webp"
+      },
+      {
+        "name": "Grekhova",
+        "attachments": ["bo6"],
+        "description": "Compact pistol with high fire rate and tight grouping.",
+        "imageUrl": "https://assets.codmunity.gg/optimized/Grekhova-Dark-Spine.webp"
+      },
+      {
+        "name": "GS45",
+        "attachments": ["bo6"],
+        "description": "Heavy pistol with powerful rounds and higher recoil.",
+        "imageUrl": "https://assets.codmunity.gg/optimized/Gs45-Dark-Spine.webp"
+      },
+      {
+        "name": "Stryder .22",
+        "attachments": ["bo6"],
+        "description": "Silenced pistol suited for stealth and low-profile ops.",
+        "imageUrl": "https://assets.codmunity.gg/optimized/Stryder-.22-Dark-Spine.webp"
+      }
+    ],
+    "Launcher": [
+      {
+        "name": "Cigma 2B",
+        "attachments": ["bo6"],
+        "description": "Lock-on launcher for anti-air and anti-vehicle support.",
+        "imageUrl": "https://assets.codmunity.gg/optimized/CIGMA-2B-Dark-Spine.webp"
+      },
+      {
+        "name": "HE-1",
+        "attachments": ["bo6"],
+        "description": "Manual launcher with high explosive yield.",
+        "imageUrl": "https://assets.codmunity.gg/optimized/HE-1-Dark-Spine.webp"
+      }
+    ]
+  }
+}

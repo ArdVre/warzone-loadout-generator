@@ -1,0 +1,86 @@
+{
+    "perks": {
+        "1": [
+            {
+                "name": "Survivor",
+                "imageUrl": "https://img.wzstats.gg/survivor-warzone-bo6/perks"
+            },
+            {
+                "name": "Scavenger",
+                "imageUrl": "https://img.wzstats.gg/scavenger-warzone-bo6/perks"
+            },
+            {
+                "name": "Veteran",
+                "imageUrl": "https://img.wzstats.gg/veteran-warzone-bo6/perks"
+            },
+            {
+                "name": "Reflexes",
+                "imageUrl": "https://img.wzstats.gg/reflexes-warzone-bo6/perks"
+            },
+            {
+                "name": "Grenadier",
+                "imageUrl": "https://img.wzstats.gg/grenadier-warzone-bo6/perks"
+            },
+            {
+                "name": "Moutaineer",
+                "imageUrl": "https://img.wzstats.gg/moutaineer-warzone-bo6/perks"
+            }
+        ],
+        "2": [
+            {
+                "name": "Tracker",
+                "imageUrl": "https://img.wzstats.gg/tracker-warzone-bo6/perks"
+            },
+            {
+                "name": "Cold Blooded",
+                "imageUrl": "https://img.wzstats.gg/cold-blooded-warzone-bo6/perks"
+            },
+            {
+                "name": "Quick Fix",
+                "imageUrl": "https://img.wzstats.gg/quick-fix-warzone-bo6/perks"
+            },
+            {
+                "name": "Sprinter",
+                "imageUrl": "https://img.wzstats.gg/sprinter-warzone-bo6/perks"
+            },
+            {
+                "name": "Bomb Squad",
+                "imageUrl": "https://img.wzstats.gg/bomb-squad-warzone-bo6/perks"
+            },
+            {
+                "name": "Quartermaster",
+                "imageUrl": "https://img.wzstats.gg/quartermaster-warzone-bo6/perks"
+            },
+            {
+                "name": "Reactive Armor",
+                "imageUrl": "https://img.wzstats.gg/reactive-armor-warzone-bo6/perks"
+            }
+        ],
+        "3": [
+            {
+                "name": "Ghost",
+                "imageUrl": "https://img.wzstats.gg/ghost-warzone-bo6/perks"
+            },
+            {
+                "name": "Tempered",
+                "imageUrl": "https://img.wzstats.gg/tempered-warzone-bo6/perks"
+            },
+            {
+                "name": "Alertness",
+                "imageUrl": "https://img.wzstats.gg/alertness-warzone-bo6/perks"
+            },
+            {
+                "name": "Birdseye",
+                "imageUrl": "https://img.wzstats.gg/birdseye-warzone-bo6/perks"
+            },
+            {
+                "name": "Resolute",
+                "imageUrl": "https://img.wzstats.gg/resolute-warzone-bo6/perks"
+            },
+            {
+                "name": "Gung-ho",
+                "imageUrl": "https://img.wzstats.gg/gung-ho-warzone-bo6/perks"
+            }
+        ]
+    }
+}

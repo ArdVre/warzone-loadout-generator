@@ -19,12 +19,17 @@ export const featuredLoadouts: Loadout[] = [
         name: "Cigma 2B",
         imageUrl: "https://assets.codmunity.gg/optimized/CIGMA-2B-Dark-Spine.webp",
         description:
-          "The Cigma 2B is a powerful rocket launcher, perfect for taking out vehicles.",
+          "The Cigma 2B is a powerful launcher effective against vehicles.",
       },
-      perks: ["Mountaineer", "Tracker", "Tempered"],
-      lethal: "Thermite",
-      tactical: "Stim Shot",
-      fieldUpgrade: "Dead Silence",
+      perks: [
+        { name: "E.O.D.", imageUrl: "https://img.wzstats.gg/eod-bo6/perks" },
+        { name: "Overkill", imageUrl: "https://img.wzstats.gg/overkill-bo6/perks" },
+        { name: "Amped", imageUrl: "https://img.wzstats.gg/amped-bo6/perks" },
+        { name: "Battle Hardened", imageUrl: "https://img.wzstats.gg/battle-hardened-bo6/perks" },
+      ],
+      tactical: { name: "Stim Shot", imageUrl: "https://img.wzstats.gg/stim-shot-bo6/perks" }, // Updated
+      lethal: { name: "Semtex", imageUrl: "https://img.wzstats.gg/semtex-bo6/perks" },       // Updated
+      fieldUpgrade: "Trophy System",
     },
     {
       primaryWeapon: {
@@ -53,9 +58,22 @@ export const featuredLoadouts: Loadout[] = [
           { name: "Extended Mag II", type: "Magazine" },
         ],
       },
-      perks: ["Survivor", "Quick Fix", "Ghost"],
-      lethal: "Throwing Knife",
-      tactical: "Stim Shot",
-      fieldUpgrade: "Dead Silence",
+      perks: [
+        {
+          name: "Survivor",
+          imageUrl: "https://img.wzstats.gg/survivor-warzone-bo6/perks"
+        },
+        {
+          name: "Quick Fix",
+          imageUrl: "https://img.wzstats.gg/quick-fix-warzone-bo6/perks"
+        },
+        {
+          name: "Ghost",
+          imageUrl: "https://img.wzstats.gg/ghost-warzone-bo6/perks"
+        }
+      ],
+      lethal: { name: "Throwing Knife", imageUrl: "https://img.wzstats.gg/throwing-knife-warzone/perks" }, // Updated
+      tactical: { name: "Stim Shot", imageUrl: "https://img.wzstats.gg/stim-shot-bo6/perks" },       // Updated
+      fieldUpgrade: "Trophy System",
     },
   ];

@@ -1,12 +1,14 @@
 import { Loadout } from "@/lib/types";
 import WeaponCard from "@/app/components/WeaponCard";
+import Image from "next/image";
 
 interface LoadoutCardProps {
   loadout: Loadout;
   className?: string;
+  onRegenerate?: () => void;
 }
 
-const LoadoutCard = ({ loadout, className = "" }: LoadoutCardProps) => {
+const LoadoutCard = ({ loadout, className = "", onRegenerate }: LoadoutCardProps) => {
   return (
     <section className={`flex flex-col gap-4 p-4 bg-white dark:bg-black/90 rounded-lg border w-full border-gray-200 dark:border-gray-800 ${className}`}>
       {/* Weapons - Horizontal Layout */}
@@ -33,9 +35,17 @@ const LoadoutCard = ({ loadout, className = "" }: LoadoutCardProps) => {
           <h4 className="text-xs uppercase font-medium text-gray-500 dark:text-gray-400 mb-1">Perks</h4>
           <div className="flex flex-wrap gap-1">
             {loadout.perks.map((perk, index) => (
-              <span key={index} className="px-2 py-0.5 bg-blue-400 dark:bg-gray-800 text-xs rounded text-gray-700 dark:text-gray-300">
-                {perk}
-              </span>
+              <div key={index} className={`flex items-center gap-2 px-2 py-1 rounded-md border border-blue-100 dark:border-gray-700 ${index === 0 && "bg-blue-700 dark:bg-blue-800"} ${index === 1 && "bg-red-700 dark:bg-red-800"} ${index === 2 && "bg-yellow-700 dark:bg-yellow-800"}`}>
+              <div className="w-6 h-6 relative flex-shrink-0">
+                <Image 
+                src={perk.imageUrl as string} 
+                alt={perk.name} 
+                fill
+                className="object-cover"
+                />
+              </div>
+              <span className="text-xs font-medium text-gray-700 dark:text-gray-300">{perk.name}</span>
+              </div>
             ))}
           </div>
         </div>
@@ -46,11 +56,31 @@ const LoadoutCard = ({ loadout, className = "" }: LoadoutCardProps) => {
           <div className="flex flex-col gap-1">
             <div className="flex items-center gap-2">
               <span className="text-xs text-gray-500 dark:text-gray-400">Tactical:</span>
-              <span className="text-xs text-gray-700 dark:text-gray-300">{loadout.tactical}</span>
+              {loadout.tactical.imageUrl && (
+                <div className="w-4 h-4 relative flex-shrink-0">
+                  <Image 
+                    src={loadout.tactical.imageUrl} 
+                    alt={loadout.tactical.name} 
+                    fill
+                    className="object-contain"
+                  />
+                </div>
+              )}
+              <span className="text-xs text-gray-700 dark:text-gray-300">{loadout.tactical.name}</span>
             </div>
             <div className="flex items-center gap-2">
               <span className="text-xs text-gray-500 dark:text-gray-400">Lethal:</span>
-              <span className="text-xs text-gray-700 dark:text-gray-300">{loadout.lethal}</span>
+              {loadout.lethal.imageUrl && (
+                <div className="w-4 h-4 relative flex-shrink-0">
+                  <Image 
+                    src={loadout.lethal.imageUrl} 
+                    alt={loadout.lethal.name} 
+                    fill
+                    className="object-contain"
+                  />
+                </div>
+              )}
+              <span className="text-xs text-gray-700 dark:text-gray-300">{loadout.lethal.name}</span>
             </div>
           </div>
         </div>
@@ -63,6 +93,18 @@ const LoadoutCard = ({ loadout, className = "" }: LoadoutCardProps) => {
           </span>
         </div>
       </div>
+
+      {/* Regenerate Button */}
+      {onRegenerate && (
+        <div className="flex justify-center mt-8">
+          <button
+            onClick={onRegenerate}
+            className="cursor-pointer px-6 py-2 rounded-lg font-semibold text-white bg-gradient-to-r from-blue-500 to-blue-400 hover:from-blue-600 hover:to-blue-500 shadow-md hover:shadow-lg transition-all duration-300 ease-in-out transform hover:-translate-y-1"
+          >
+            Generate Another
+          </button>
+        </div>
+      )}
     </section>
   );
 };

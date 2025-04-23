@@ -25,8 +25,7 @@ const WeaponCard = ({ weapon }: WeaponCardProps) => {
           alt={weapon.name}
           width={500}
           height={300}
-          objectFit="contain"
-          className="rounded-t-lg"
+          className="rounded-t-lg object-contain"
         />
       </div>
 

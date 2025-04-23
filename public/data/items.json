@@ -1,0 +1,104 @@
+{
+  "lethal": [
+    {
+      "name": "Impact Grenade",
+      "imageUrl": "https://img.wzstats.gg/impact-grenade-bo6/perks"
+    },
+    {
+      "name": "Frag",
+      "imageUrl": "https://img.wzstats.gg/frag-bo6/perks"
+    },
+    {
+      "name": "Semtex",
+      "imageUrl": "https://img.wzstats.gg/semtex-bo6/perks"
+    },
+    {
+      "name": "Throwing Knife",
+      "imageUrl": "https://img.wzstats.gg/throwing-knife-warzone/perks"
+    },
+    {
+      "name": "Blast Trap",
+      "imageUrl": "https://img.wzstats.gg/blast-trap-bo6/perks"
+    },
+    {
+      "name": "Drill Charge",
+      "imageUrl": "https://img.wzstats.gg/drill-charge-bo6/perks"
+    },
+    {
+      "name": "Molotov",
+      "imageUrl": "https://img.wzstats.gg/molotov-bo6/perks"
+    },
+    {
+      "name": "C4",
+      "imageUrl": "https://img.wzstats.gg/c4-bo6/perks"
+    },
+    {
+      "name": "Thermo Grenade",
+      "imageUrl": "https://img.wzstats.gg/thermo-grenade-bo6/perks"
+    },
+    {
+      "name": "Combat Axe",
+      "imageUrl": "https://img.wzstats.gg/combat-axe-bo6/perks"
+    }
+  ],
+  "tactical": [
+    {
+      "name": "Stim Shot",
+      "imageUrl": "https://img.wzstats.gg/stim-shot-bo6/perks"
+    },
+    {
+      "name": "Decoy Grenade",
+      "imageUrl": ""
+    },
+    {
+      "name": "Smoke Grenade",
+      "imageUrl": "https://img.wzstats.gg/smoke-grenade-bo6/perks"
+    },
+    {
+      "name": "Experimental Gas",
+      "imageUrl": "https://img.wzstats.gg/experimental-gas-warzone/perks"
+    },
+    {
+      "name": "Concussion",
+      "imageUrl": "https://img.wzstats.gg/concussion-bo6/perks"
+    },
+    {
+      "name": "Flashbang",
+      "imageUrl": "https://img.wzstats.gg/flashbang-bo6/perks"
+    },
+    {
+      "name": "Snapshot Grenade",
+      "imageUrl": "https://img.wzstats.gg/snapshot-grenade-warzone/perks"
+    },
+    {
+      "name": "Spy Cam",
+      "imageUrl": "https://img.wzstats.gg/spy-cam-bo6/perks"
+    },
+    {
+      "name": "Shock Charge",
+      "imageUrl": "https://img.wzstats.gg/shock-charge-bo6/perks"
+    },
+    {
+      "name": "Decoy",
+      "imageUrl": "https://img.wzstats.gg/decoy-bo6/perks"
+    }
+  ],
+  "fieldUpgrade": [
+    {
+      "name": "Trophy System",
+      "imageUrl": ""
+    },
+    {
+      "name": "Heartbeat Sensor",
+      "imageUrl": ""
+    },
+    {
+      "name": "Neurogas",
+      "imageUrl": "https://img.wzstats.gg/neurogas-bo6/perks"
+    },
+    {
+      "name": "Spring Mine",
+      "imageUrl": "https://img.wzstats.gg/spring-mine-bo6/perks"
+    }
+  ]
+}
