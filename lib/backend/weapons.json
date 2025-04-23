@@ -10,8 +10,8 @@
       { "name": "AS VAL", "attachments": ["bo6"] },
       { "name": "Kilo 141", "attachments": ["bo6"] },
       { "name": "CR-56 AMAX", "attachments": ["bo6"] },
-      { "name": "Krig C", "attachments": ["bo6"]},
-      { "name": "Cypher 091", "attachments": ["bo6"]}
+      { "name": "Krig C", "attachments": ["bo6"] },
+      { "name": "Cypher 091", "attachments": ["bo6"] }
     ],
     "Submachine Gun": [
       { "name": "C9", "attachments": ["bo6"] },
@@ -60,7 +60,15 @@
     ],
     "Melee": [
       { "name": "Knife", "attachments": ["bo6"] },
-      { "name": "Baseball Bat", "attachments": ["bo6"] }
+      { "name": "Baseball Bat", "attachments": ["bo6"] },
+      { "name": "Power Drill", "attachments": ["bo6"] },
+      { "name": "Cleaver", "attachments": ["bo6"] },
+      { "name": "Skateboard", "attachments": ["bo6"] },
+      { "name": "Katanas", "attachments": ["bo6"] },
+      { "name": "Bo Staff", "attachments": ["bo6"] },
+      { "name": "Sai", "attachments": ["bo6"] },
+      { "name": "Nunchaku", "attachments": ["bo6"] },
+      { "name": "Kali Sticks", "attachments": ["bo6"] }
     ]
   }
 }
